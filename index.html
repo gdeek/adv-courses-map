@@ -6,12 +6,20 @@
   <title>Advertising Curriculum Map</title>
   <style>
     
+    body {
+      font-size: 20px;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
     .image-container {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
       height: 100%;
+      max-width: 100%;
     }
 
     .image-container img {
@@ -54,13 +62,26 @@
       text-decoration: none;
       cursor: pointer;
     }
+
+    @media screen and (max-width: 768px) {
+      body {
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      body {
+        font-size: 12px;
+      }
+    }
+
   </style>
 </head>
 <body>
   <div id="intro-text">
     <p style="font-size:24px; color:#002050; text-align: center;"><b>Personalize your path in Advertising</b></p>
-    <p style="font-size:20px"><b>Our curriculum is designed for a custom experience!</b> Use this map to browse classes you may enjoy, then click through to the Course Explorer to learn more about each (including schedule and pre-reqs) or register.</p>
-    <ul style="font-size:20px">
+    <p><b>Our curriculum is designed for a custom experience!</b> Use this map to browse classes you may enjoy, then click through to the Course Explorer to learn more about each (including schedule and pre-reqs) or register.</p>
+    <ul>
         <li>Start in the middle for intro classes, work your way out for advanced ones</li>
         <li>Pinned classes are available Fall 2023; learn more about others in the <a href="http://catalog.illinois.edu/undergraduate/media/advertising-bs/">Academic Catalog</a></li>
         <li>Colors represent different industry areas/careers - if you like a class, consider others near it!</li>
